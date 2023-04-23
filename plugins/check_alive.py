@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 CMD = ["/", "." " "]
 
 
-@Client.on_message(filters.command("deep learning", CMD))
+@Client.on_message(filters.command("deeplearning", CMD))
 async def check_alive(_, message):
     buttons = [[
                     InlineKeyboardButton('CSE', callback_data='yearcse'),
