@@ -20,37 +20,6 @@ BATCH_FILES = {}
 
 
 
-CMD = ["/", "." " "]
-
-
-@Client.on_message(filters.command("deeplearning", CMD))
-async def check_alive(_, message):
-    buttons = [[
-                    InlineKeyboardButton('CSE', callback_data='yearcse'),
-                    InlineKeyboardButton('EEE', callback_data='yearcse'),
-                    InlineKeyboardButton('ECE', callback_data='yearcse')
-                ],[
-                    InlineKeyboardButton('CIVIL', callback_data='yearcse'),
-                    InlineKeyboardButton('Mechanical', callback_data='yearcse'),
-                    InlineKeyboardButton('Food Technology', callback_data='yearcse')
-                    
-                ],[
-                    InlineKeyboardButton('Biotechnology', callback_data='yearcse'),
-                    InlineKeyboardButton('Information Technology', callback_data='yearcse'),
-                    InlineKeyboardButton('B.Arch', callback_data='yearcse')
-                ]]
-    
-            await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.YEAR_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
 
 
 
