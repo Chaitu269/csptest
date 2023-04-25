@@ -2,7 +2,27 @@ import time
 import random
 from pyrogram import Client, filters
 
+
+import time
+from pyrogram import Client, filters
+from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
+from helper.database import  find_one,used_limit 
+from helper.database import daily as daily_ 
+import datetime
+from datetime import timedelta, date ,datetime
+from datetime import date as date_
+from helper.progress import humanbytes
+from helper.database import daily as daily_
+from helper.date import check_expi
+from helper.database import uploadlimit , usertype
+
+
 CMD = ["/", "." " "]
+
+
+@Client.on_message(filters.command("dl", CMD))
+async def check_alive(_, message):
+    await message.reply.(text,quote = True,reply_markup = InlineKeyboardMarkup([[       			InlineKeyboardButton("Upgrade 💰💳",callback_data = "upgrade"), InlineKeyboardButton("Cancel ✖️ ",callback_data = "cancel") ]]))
 
 
 
