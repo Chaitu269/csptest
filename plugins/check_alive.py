@@ -22,7 +22,7 @@ CMD = ["/", "." " "]
 
 @Client.on_message(filters.command("dl", CMD))
 async def check_alive(_, message):
-    await message.reply.(text,quote = True,reply_markup = InlineKeyboardMarkup([[       			InlineKeyboardButton("Upgrade 💰💳",callback_data = "upgrade"), InlineKeyboardButton("Cancel ✖️ ",callback_data = "cancel") ]]))
+    await message.reply.(text,quote = True,reply_markup = InlineKeyboardMarkup([[       			InlineKeyboardButton("Upgrade 💰💳",callback_data = "start"), InlineKeyboardButton("Cancel ✖️ ",callback_data = "start") ]]))
 
 
 
