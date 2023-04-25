@@ -16,7 +16,7 @@ from helper.database import uploadlimit , usertype
 CMD = ["/", "." " "]
 
 
-@Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["deepl1"]))
+@Client.on_message(filters.command("deepl1" , CMD))
 async def deepl1(_, message):
     await message.reply_text("Select Plan.........",quote=True,reply_markup=InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("VIP 1",callback_data = "d1"), 
