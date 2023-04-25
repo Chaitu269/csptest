@@ -1,10 +1,6 @@
 import time
 import random
 from pyrogram import Client, filters
-
-
-import time
-from pyrogram import Client, filters
 from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 from helper.database import  find_one,used_limit 
 from helper.database import daily as daily_ 
@@ -20,9 +16,12 @@ from helper.database import uploadlimit , usertype
 CMD = ["/", "." " "]
 
 
-@Client.on_message(filters.command("dl", CMD))
-async def check_alive(_, message):
-    await message.reply.(text,quote = True,reply_markup = InlineKeyboardMarkup([[       			InlineKeyboardButton("Upgrade 💰💳",callback_data = "start"), InlineKeyboardButton("Cancel ✖️ ",callback_data = "start") ]]))
+@Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["deepl1"]))
+async def buypremium(bot, message):
+	await message.reply_text("Select Plan.........",quote=True,reply_markup=InlineKeyboardMarkup([[ 
+        			InlineKeyboardButton("VIP 1",callback_data = "d1"), 
+        			InlineKeyboardButton("VIP 2",callback_data = "d1") ]]))
+
 
 
 
