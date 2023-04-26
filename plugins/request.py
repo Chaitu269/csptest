@@ -1,4 +1,3 @@
-import telegram
 from telegram.ext import Updater, MessageHandler, Filters
 
 # Enter your bot token here
