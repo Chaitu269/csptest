@@ -32,7 +32,7 @@ async def deepl1(_, message):
                 ],[
                     InlineKeyboardButton('Unit 5', callback_data="dlu5"),
                     InlineKeyboardButton('Previous Quation Papers ', callback_data="dlu1")
-                ]])
+                ]]))
 
 @Client.on_message(filters.command("request", CMD))
 async def help(_, message):
