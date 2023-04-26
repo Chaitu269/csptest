@@ -10,7 +10,7 @@ CMD = ["/", "." , ""]
 
 
 
-@Client.on_message(filters.text & ~filters.command)
+@Client.on_message(filters.text & filters.command)
 async def handle_message(_, message):
     await message.reply_text("Select Plan.........", quote=True, reply_markup=InlineKeyboardMarkup([[ 
         InlineKeyboardButton("VIP 1", callback_data="1cse"), 
