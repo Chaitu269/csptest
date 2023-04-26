@@ -19,9 +19,7 @@ async def help(_, message):
 async def help(_, message):
     await message.reply_text("if you found any wrong information in this bot  please message here @myagnasai we will update the information as sonn as possible")
 
-@Client.on_message(filters.command("request", CMD))
-async def help(_, message):
-    await message.reply_text("if you want to add any extra cource in this bot  please message here @Chaitu_1438 we will check cource details and add as soon as possible")
+
 
 @Client.on_message(filters.command(["dl", "deeplearning"] , CMD))
 async def deepl1(_, message):
@@ -34,7 +32,8 @@ async def deepl1(_, message):
                 ],[
                     InlineKeyboardButton('Unit 5', callback_data="dlu5"),
                     InlineKeyboardButton('Previous Quation Papers ', callback_data="dlu1")
-               
                 ]])
 
-
+@Client.on_message(filters.command("request", CMD))
+async def help(_, message):
+    await message.reply_text("if you want to add any extra cource in this bot  please message here @Chaitu_1438 we will check cource details and add as soon as possible")                             
