@@ -13,11 +13,11 @@ CMD = ["/", "." , ""]
 
 @Client.on_message(filters.command("help", CMD))
 async def help(_, message):
-    await message.reply_text("This Bot will provide you textbooks and previous quation papers \n\n Just enter the cource code or cource name you will get the text books and previous quation ppers of the cource \n\n  If you found any wrong information in this bot click /admin to send message to the admin   \n\n   If you want to add any new cource in this bot click \requst to send request to add cource  ")
+    await message.reply_text("Tʜɪs Bᴏᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴇxᴛʙᴏᴏᴋs ᴀɴᴅ ᴘʀᴇᴠɪᴏᴜs ᴏ̨ᴜᴀᴛɪᴏɴ ᴘᴀᴘᴇʀs \n\n\n Jᴜsᴛ ᴇɴᴛᴇʀ ᴛʜᴇ ᴄᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏʀ ᴄᴏᴜʀᴄᴇ ɴᴀᴍᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴛᴇxᴛ ʙᴏᴏᴋs ᴀɴᴅ ᴘʀᴇᴠɪᴏᴜs ᴏ̨ᴜᴀᴛɪᴏɴ ᴘᴘᴇʀs ᴏғ ᴛʜᴇ ᴄᴏᴜʀᴄᴇ \n\n\n  Iғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ᴡʀᴏɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄʟɪᴄᴋ /ᴀᴅᴍɪɴ ᴛᴏ sᴇɴᴅ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴍɪɴ   \n\n\n   Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ᴀɴʏ ɴᴇᴡ ᴄᴏᴜʀᴄᴇ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄʟɪᴄᴋ \ʀᴇᴏ̨ᴜsᴛ ᴛᴏ sᴇɴᴅ ʀᴇᴏ̨ᴜᴇsᴛ ᴛᴏ ᴀᴅᴅ ᴄᴏᴜʀᴄᴇ ")
 
 @Client.on_message(filters.command("admin", CMD))
 async def admin(_, message):
-    await message.reply_text("if you found any wrong information in this bot  please message here @myagnasai we will update the information as sonn as possible")
+    await message.reply_text("ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ᴡʀᴏɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ɪɴ ᴛʜɪs ʙᴏᴛ  ᴘʟᴇᴀsᴇ ᴍᴇssᴀɢᴇ ʜᴇʀᴇ  \n@ᴍʏᴀɢɴᴀsᴀɪ \n\ᴡᴇ ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ ᴛʜᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀs sᴏɴɴ ᴀs ᴘᴏssɪʙʟᴇ")
 
 
 
@@ -36,4 +36,4 @@ async def dl(_, message):
 
 @Client.on_message(filters.command("request", CMD))
 async def request(_, message):
-    await message.reply_text("if you want to add any extra cource in this bot  please message here @Chaitu_1438 we will check cource details and add as soon as possible")                             
+    await message.reply_text("ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ᴀɴʏ ᴇxᴛʀᴀ ᴄᴏᴜʀᴄᴇ ɪɴ ᴛʜɪs ʙᴏᴛ  ᴘʟᴇᴀsᴇ ᴍᴇssᴀɢᴇ ʜᴇʀᴇ \n @Cʜᴀɪᴛᴜ_1438 \n ᴡᴇ ᴡɪʟʟ ᴄʜᴇᴄᴋ ᴄᴏᴜʀᴄᴇ ᴅᴇᴛᴀɪʟs ᴀɴᴅ ᴀᴅᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ")                             
