@@ -17,7 +17,7 @@ async def help(_, message):
 
 @Client.on_message(filters.command("admin", CMD))
 async def admin(_, message):
-    await message.reply_text("ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ᴡʀᴏɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ɪɴ ᴛʜɪs ʙᴏᴛ  ᴘʟᴇᴀsᴇ ᴍᴇssᴀɢᴇ ʜᴇʀᴇ  \n@myagnasai \n\ᴡᴇ ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ ᴛʜᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀs sᴏɴɴ ᴀs ᴘᴏssɪʙʟᴇ")
+    await message.reply_text("ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ᴡʀᴏɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ɪɴ ᴛʜɪs ʙᴏᴛ  ᴘʟᴇᴀsᴇ ᴍᴇssᴀɢᴇ ʜᴇʀᴇ  \n@myagnasai \n ᴡᴇ ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ ᴛʜᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀs sᴏɴɴ ᴀs ᴘᴏssɪʙʟᴇ")
 
 
 
