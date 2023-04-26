@@ -12,8 +12,8 @@ CMD = ["/", "." , " "]
 @Client.on_message(filters.command("deepl1" , CMD))
 async def deepl1(_, message):
 	await message.reply_text("Select Plan.........",quote=True,reply_markup=InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("VIP 1",callback_data = "vip1"), 
-        			InlineKeyboardButton("VIP 2",callback_data = "vip2") ]]))
+        			InlineKeyboardButton("VIP 1",callback_data = "1cse"), 
+        			InlineKeyboardButton("VIP 2",callback_data = "1cse") ]]))
 
 
 @Client.on_message(filters.command("alive", CMD))
