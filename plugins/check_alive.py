@@ -13,7 +13,7 @@ CMD = ["/", "." , ""]
 
 @Client.on_message(filters.command("help", CMD))
 async def help(_, message):
-    await message.reply_text("Tʜɪs Bᴏᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴇxᴛʙᴏᴏᴋs ᴀɴᴅ ᴘʀᴇᴠɪᴏᴜs ᴏ̨ᴜᴀᴛɪᴏɴ ᴘᴀᴘᴇʀs \n\n\n Jᴜsᴛ ᴇɴᴛᴇʀ ᴛʜᴇ ᴄᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏʀ ᴄᴏᴜʀᴄᴇ ɴᴀᴍᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴛᴇxᴛ ʙᴏᴏᴋs ᴀɴᴅ ᴘʀᴇᴠɪᴏᴜs ᴏ̨ᴜᴀᴛɪᴏɴ ᴘᴘᴇʀs ᴏғ ᴛʜᴇ ᴄᴏᴜʀᴄᴇ \n\n\n  Iғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ᴡʀᴏɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄʟɪᴄᴋ /ᴀᴅᴍɪɴ ᴛᴏ sᴇɴᴅ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴍɪɴ   \n\n\n   Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ᴀɴʏ ɴᴇᴡ ᴄᴏᴜʀᴄᴇ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄʟɪᴄᴋ \ʀᴇᴏ̨ᴜsᴛ ᴛᴏ sᴇɴᴅ ʀᴇᴏ̨ᴜᴇsᴛ ᴛᴏ ᴀᴅᴅ ᴄᴏᴜʀᴄᴇ ")
+    await message.reply_text("Tʜɪs Bᴏᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴇxᴛʙᴏᴏᴋs ᴀɴᴅ ᴘʀᴇᴠɪᴏᴜs ᴏ̨ᴜᴀᴛɪᴏɴ ᴘᴀᴘᴇʀs \n\n\n Jᴜsᴛ ᴇɴᴛᴇʀ ᴛʜᴇ ᴄᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏʀ ᴄᴏᴜʀᴄᴇ ɴᴀᴍᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴛᴇxᴛ ʙᴏᴏᴋs ᴀɴᴅ ᴘʀᴇᴠɪᴏᴜs ᴏ̨ᴜᴀᴛɪᴏɴ ᴘᴘᴇʀs ᴏғ ᴛʜᴇ ᴄᴏᴜʀᴄᴇ \n\n\n  Iғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ᴡʀᴏɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄʟɪᴄᴋ /admin ᴛᴏ sᴇɴᴅ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴍɪɴ   \n\n\n   Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ᴀɴʏ ɴᴇᴡ ᴄᴏᴜʀᴄᴇ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄʟɪᴄᴋ /request ᴛᴏ sᴇɴᴅ ʀᴇᴏ̨ᴜᴇsᴛ ᴛᴏ ᴀᴅᴅ ᴄᴏᴜʀᴄᴇ ")
 
 @Client.on_message(filters.command("admin", CMD))
 async def admin(_, message):
@@ -33,7 +33,7 @@ async def admin(_, message):
     
     
 @Client.on_message(filters.command(["cd", "compilerdesign" , "compiler design" , "CSE18R274"] , CMD))
-async def dl(_, message):
+async def cd(_, message):
     await message.reply_text("Select option",quote=True,reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton('Unit 1', callback_data="dlu1"),
                     InlineKeyboardButton('Unit 2', callback_data="dlu1")
