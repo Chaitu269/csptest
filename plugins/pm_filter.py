@@ -869,11 +869,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "yearcse":
         buttons = [[
-                    InlineKeyboardButton('1', callback_data="1cse"),
-                    InlineKeyboardButton('2', callback_data="2cse")
+                    InlineKeyboardButton('1', callback_data="3cse"),
+                    InlineKeyboardButton('2', callback_data="3cse")
                 ],[
                     InlineKeyboardButton('3', callback_data='3cse'),
-                    InlineKeyboardButton('4', callback_data='4cse')
+                    InlineKeyboardButton('4', callback_data='3cse')
                 ],[
                     InlineKeyboardButton('Back', callback_data='start')
         ]]
