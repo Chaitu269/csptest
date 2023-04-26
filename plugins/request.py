@@ -1,6 +1,4 @@
-from telegram.ext import Updater, MessageHandler, Filters
 
-# Enter your bot token here
 TOKEN = 'BOT_TOKEN'
 
 # Enter your admin chat id here
