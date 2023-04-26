@@ -36,4 +36,4 @@ async def dl(_, message):
 
 @Client.on_message(filters.command("request", CMD))
 async def request(_, message):
-    await message.reply_text("ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ᴀɴʏ ᴇxᴛʀᴀ ᴄᴏᴜʀᴄᴇ ɪɴ ᴛʜɪs ʙᴏᴛ  ᴘʟᴇᴀsᴇ ᴍᴇssᴀɢᴇ ʜᴇʀᴇ \n @chaitu@1438 \n ᴡᴇ ᴡɪʟʟ ᴄʜᴇᴄᴋ ᴄᴏᴜʀᴄᴇ ᴅᴇᴛᴀɪʟs ᴀɴᴅ ᴀᴅᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ")                             
+    await message.reply_text("ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ᴀɴʏ ᴇxᴛʀᴀ ᴄᴏᴜʀᴄᴇ ɪɴ ᴛʜɪs ʙᴏᴛ  ᴘʟᴇᴀsᴇ ᴍᴇssᴀɢᴇ ʜᴇʀᴇ \n @chaitu_1438 \n ᴡᴇ ᴡɪʟʟ ᴄʜᴇᴄᴋ ᴄᴏᴜʀᴄᴇ ᴅᴇᴛᴀɪʟs ᴀɴᴅ ᴀᴅᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ")                             
