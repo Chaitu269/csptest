@@ -19,9 +19,44 @@ async def help(_, message):
 async def admin(_, message):
     await message.reply_text("ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ᴡʀᴏɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ɪɴ ᴛʜɪs ʙᴏᴛ  ᴘʟᴇᴀsᴇ ᴍᴇssᴀɢᴇ ʜᴇʀᴇ  \n@myagnasai \n ᴡᴇ ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ ᴛʜᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀs sᴏɴɴ ᴀs ᴘᴏssɪʙʟᴇ")
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+@Client.on_message(filters.command(["cd", "compilerdesign" , "compiler design" "CSE18R274"] , CMD))
+async def dl(_, message):
+    await message.reply_text("Select option",quote=True,reply_markup=InlineKeyboardMarkup([[
+                    InlineKeyboardButton('Unit 1', callback_data="dlu1"),
+                    InlineKeyboardButton('Unit 2', callback_data="dlu1")
+                ],[
+                    InlineKeyboardButton('Unit 3', url=f"https://t.me/Testkarebot?start=ZmlsZV9CUUFEQlFBREVnb0FBaUZGYVZXN2JIcGxNeFNrSUJZRQ"),
+                    InlineKeyboardButton('Unit 4', callback_data='dlu4')
+                ],[
+                    InlineKeyboardButton('Unit 5', callback_data="dlu5"),
+                    InlineKeyboardButton('Previous Quation Papers ', callback_data="dlu1")
+                ]]))
+    
+ 
 
 
-@Client.on_message(filters.command(["dl", "deeplearning" , "deep learning"] , CMD))
+
+
+
+
+
+
+
+
+@Client.on_message(filters.command(["dl", "deeplearning" , "deep learning" "CSE18R396"] , CMD))
 async def dl(_, message):
     await message.reply_text("Select option",quote=True,reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton('Unit 1', callback_data="dlu1"),
