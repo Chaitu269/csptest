@@ -16,7 +16,7 @@ async def help(_, message):
     await message.reply_text("This Bot will provide you textbooks and previous quation papers \n\n Just enter the cource code or cource name you will get the text books and previous quation ppers of the cource \n\n  If you found any wrong information in this bot click /admin to send message to the admin   \n\n   If you want to add any new cource in this bot click \requst to send request to add cource  ")
 
 @Client.on_message(filters.command("admin", CMD))
-async def help(_, message):
+async def admin(_, message):
     await message.reply_text("if you found any wrong information in this bot  please message here @myagnasai we will update the information as sonn as possible")
 
 
