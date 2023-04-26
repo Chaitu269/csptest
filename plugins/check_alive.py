@@ -32,7 +32,7 @@ async def admin(_, message):
     
     
     
-@Client.on_message(filters.command(["cd", "compilerdesign" , "compiler design" "CSE18R274"] , CMD))
+@Client.on_message(filters.command(["cd", "compilerdesign" , "compiler design" , "CSE18R274"] , CMD))
 async def dl(_, message):
     await message.reply_text("Select option",quote=True,reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton('Unit 1', callback_data="dlu1"),
@@ -56,7 +56,7 @@ async def dl(_, message):
 
 
 
-@Client.on_message(filters.command(["dl", "deeplearning" , "deep learning" "CSE18R396"] , CMD))
+@Client.on_message(filters.command(["dl", "deeplearning" , "deep learning" , "CSE18R396"] , CMD))
 async def dl(_, message):
     await message.reply_text("Select option",quote=True,reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton('Unit 1', callback_data="dlu1"),
