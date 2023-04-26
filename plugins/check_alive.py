@@ -21,9 +21,9 @@ async def admin(_, message):
 
 
 
-@Client.on_message(filters.command(["dl", "deeplearning"] , CMD))
+@Client.on_message(filters.command(["dl", "deeplearning" , "deep learning"] , CMD))
 async def dl(_, message):
-    await message.reply_text("Select Plan.........",quote=True,reply_markup=InlineKeyboardMarkup([[
+    await message.reply_text("Select option",quote=True,reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton('Unit 1', callback_data="dlu1"),
                     InlineKeyboardButton('Unit 2', callback_data="dlu1")
                 ],[
