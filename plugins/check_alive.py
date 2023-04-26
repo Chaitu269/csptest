@@ -6,7 +6,7 @@ from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup,ForceRep
 
 
 
-CMD = ["/", "." , " "]
+CMD = ["/", "." , ""]
 
 
 
