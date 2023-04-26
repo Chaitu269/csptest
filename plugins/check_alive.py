@@ -6,18 +6,14 @@ from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup,ForceRep
 
 
 
-CMD = ["/", "." " "]
+CMD = ["/", "." , " "]
 
 
 @Client.on_message(filters.command("deepl1" , CMD))
 async def deepl1(_, message):
-    keyboard = InlineKeyboardMarkup(row_width=2)
-    plan1_button = InlineKeyboardButton("Plan 1", callback_data="plan1")
-    plan2_button = InlineKeyboardButton("Plan 2", callback_data="plan2")
-    keyboard.add(plan1_button, plan2_button)
-    await message.reply_text("Select Plan.........", reply_markup=keyboard)
-
-
+	await message.reply_text("Select Plan.........",quote=True,reply_markup=InlineKeyboardMarkup([[ 
+        			InlineKeyboardButton("VIP 1",callback_data = "vip1"), 
+        			InlineKeyboardButton("VIP 2",callback_data = "vip2") ]]))
 
 
 @Client.on_message(filters.command("alive", CMD))
