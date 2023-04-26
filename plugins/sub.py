@@ -22,7 +22,7 @@ async def help(_, message):
 
 
 @Client.on_message(filters.command(["dl", "deeplearning"] , CMD))
-async def deepl1(_, message):
+async def dl(_, message):
     await message.reply_text("Select Plan.........",quote=True,reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton('Unit 1', callback_data="dlu1"),
                     InlineKeyboardButton('Unit 2', callback_data="dlu1")
@@ -35,5 +35,5 @@ async def deepl1(_, message):
                 ]]))
 
 @Client.on_message(filters.command("request", CMD))
-async def help(_, message):
+async def request(_, message):
     await message.reply_text("if you want to add any extra cource in this bot  please message here @Chaitu_1438 we will check cource details and add as soon as possible")                             
