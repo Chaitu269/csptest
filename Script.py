@@ -8,6 +8,7 @@ class script(object):
     YEAR_TXT = """ ᴘʟᴇᴀsᴇ sᴇʟᴇᴄᴛ ʏᴏᴜʀ ʏᴇᴀʀ 👇 """
     COURSE_TXT = """ ᴘʟᴇᴀsᴇ sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴄᴏᴜʀsᴇ 👇"""
     BRANCH_TXT= """ ᴘʟᴇᴀsᴇ sᴇʟᴇᴄᴛ ʏᴏᴜʀ ʙʀᴀɴᴄʜ  👇"""
+    UNIT_TXT = """ ᴘʟᴇᴀsᴇ sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴜɴɪᴛ 👇"""
     
     
     
