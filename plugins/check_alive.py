@@ -13,7 +13,7 @@ CMD = ["/", "." , ""]
 
 @Client.on_message(filters.command("help", CMD))
 async def help(_, message):
-    await message.reply_text("Tʜɪs Bᴏᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴇxᴛʙᴏᴏᴋs ᴀɴᴅ ᴘʀᴇᴠɪᴏᴜs ᴏ̨ᴜᴀᴛɪᴏɴ ᴘᴀᴘᴇʀs \n\n\n Jᴜsᴛ ᴇɴᴛᴇʀ ᴛʜᴇ ᴄᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏʀ ᴄᴏᴜʀᴄᴇ ɴᴀᴍᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴛᴇxᴛ ʙᴏᴏᴋs ᴀɴᴅ ᴘʀᴇᴠɪᴏᴜs ᴏ̨ᴜᴇsᴛɪᴏɴ ᴘᴘᴇʀs ᴏғ ᴛʜᴇ ᴄᴏᴜʀᴄᴇ \n\n\n  Iғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ᴡʀᴏɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄʟɪᴄᴋ /admin ᴛᴏ sᴇɴᴅ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴍɪɴ   \n\n\n   Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ᴀɴʏ ɴᴇᴡ ᴄᴏᴜʀᴄᴇ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄʟɪᴄᴋ /request ᴛᴏ sᴇɴᴅ ʀᴇᴏ̨ᴜᴇsᴛ ᴛᴏ ᴀᴅᴅ ᴄᴏᴜʀᴄᴇ ")
+    await message.reply_text("Tʜɪs Bᴏᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴇxᴛʙᴏᴏᴋs ᴀɴᴅ ᴘʀᴇᴠɪᴏᴜs ᴏ̨ᴜesᴛɪᴏɴ ᴘᴀᴘᴇʀs \n\n\n Jᴜsᴛ ᴇɴᴛᴇʀ ᴛʜᴇ ᴄᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏʀ ᴄᴏᴜʀᴄᴇ ɴᴀᴍᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴛᴇxᴛ ʙᴏᴏᴋs ᴀɴᴅ ᴘʀᴇᴠɪᴏᴜs ᴏ̨ᴜᴇsᴛɪᴏɴ ᴘᴘᴇʀs ᴏғ ᴛʜᴇ ᴄᴏᴜʀᴄᴇ \n\n\n  Iғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ᴡʀᴏɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄʟɪᴄᴋ /admin ᴛᴏ sᴇɴᴅ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴍɪɴ   \n\n\n   Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ᴀɴʏ ɴᴇᴡ ᴄᴏᴜʀᴄᴇ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄʟɪᴄᴋ /request ᴛᴏ sᴇɴᴅ ʀᴇᴏ̨ᴜᴇsᴛ ᴛᴏ ᴀᴅᴅ ᴄᴏᴜʀᴄᴇ ")
 
 @Client.on_message(filters.command("admin", CMD))
 async def admin(_, message):
@@ -42,7 +42,7 @@ async def cd(_, message):
                     InlineKeyboardButton('Unit 4', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURiUWtBQXVwSFVWYlVwR2NGSUlldXVCWUU")
                 ],[
                     InlineKeyboardButton('Unit 5', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURiZ2tBQXVwSFVWYjF5bFM2RFRfMEpoWUU"),
-                    InlineKeyboardButton('Previous Quation Papers ', callback_data="dlu1")
+                    InlineKeyboardButton('Previous Question Papers ', callback_data="dlu1")
                 ]]))
     
  
@@ -66,7 +66,7 @@ async def dl(_, message):
                     InlineKeyboardButton('Unit 4', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURYUWtBQXVwSFVWWjdUVTZjOVNaLW94WUU")
                 ],[
                     InlineKeyboardButton('Unit 5', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURYd2tBQXVwSFVWWmJFVkhHbThYVHpSWUU"),
-                    InlineKeyboardButton('Previous Quation Papers ', callback_data="dlu1")
+                    InlineKeyboardButton('Previous Question Papers ', callback_data="dlu1")
                 ]]))
 
 @Client.on_message(filters.command("request", CMD))
