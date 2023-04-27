@@ -35,13 +35,13 @@ async def admin(_, message):
 @Client.on_message(filters.command(["cd", "compilerdesign" , "compiler design" , "CSE18R274"] , CMD))
 async def cd(_, message):
     await message.reply_text("Select option",quote=True,reply_markup=InlineKeyboardMarkup([[
-                    InlineKeyboardButton('Unit 1', callback_data="dlu1"),
-                    InlineKeyboardButton('Unit 2', callback_data="dlu1")
+                    InlineKeyboardButton('Unit 1', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURhUWtBQXVwSFVWYmVOSFJPWDRWejFoWUU"),
+                    InlineKeyboardButton('Unit 2', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURhZ2tBQXVwSFVWWlVpalNHLUJvenhCWUU")
                 ],[
-                    InlineKeyboardButton('Unit 3', url=f"https://t.me/Testkarebot?start=ZmlsZV9CUUFEQlFBREVnb0FBaUZGYVZXN2JIcGxNeFNrSUJZRQ"),
-                    InlineKeyboardButton('Unit 4', callback_data='dlu4')
+                    InlineKeyboardButton('Unit 3', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURiQWtBQXVwSFVWYnVlRldhdEJEZG9CWUU"),
+                    InlineKeyboardButton('Unit 4', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURiUWtBQXVwSFVWYlVwR2NGSUlldXVCWUU")
                 ],[
-                    InlineKeyboardButton('Unit 5', callback_data="dlu5"),
+                    InlineKeyboardButton('Unit 5', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURiZ2tBQXVwSFVWYjF5bFM2RFRfMEpoWUU"),
                     InlineKeyboardButton('Previous Quation Papers ', callback_data="dlu1")
                 ]]))
     
