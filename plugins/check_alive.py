@@ -59,13 +59,13 @@ async def cd(_, message):
 @Client.on_message(filters.command(["dl", "deeplearning" , "deep learning" , "CSE18R396"] , CMD))
 async def dl(_, message):
     await message.reply_text("Select option",quote=True,reply_markup=InlineKeyboardMarkup([[
-                    InlineKeyboardButton('Unit 1', callback_data="dlu1"),
-                    InlineKeyboardButton('Unit 2', callback_data="dlu1")
+                    InlineKeyboardButton('Unit 1', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURZZ2tBQXVwSFVWYmxhamZaUjJjS0NoWUU"),
+                    InlineKeyboardButton('Unit 2', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURZUWtBQXVwSFVWWWh6aTExbnRvMm9CWUU")
                 ],[
                     InlineKeyboardButton('Unit 3', url=f"https://t.me/Testkarebot?start=ZmlsZV9CUUFEQlFBREVnb0FBaUZGYVZXN2JIcGxNeFNrSUJZRQ"),
-                    InlineKeyboardButton('Unit 4', callback_data='dlu4')
+                    InlineKeyboardButton('Unit 4', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURYUWtBQXVwSFVWWjdUVTZjOVNaLW94WUU")
                 ],[
-                    InlineKeyboardButton('Unit 5', callback_data="dlu5"),
+                    InlineKeyboardButton('Unit 5', url=f"https://t.me/Testkarebot?start=ZmlsZXBfQlFBREJRQURYd2tBQXVwSFVWWmJFVkhHbThYVHpSWUU"),
                     InlineKeyboardButton('Previous Quation Papers ', callback_data="dlu1")
                 ]]))
 
